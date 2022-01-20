@@ -1,0 +1,27 @@
+{
+  "name": "Notserver",
+  "version": "1.0.0",
+  "description": "A note-taking app that you can take anywhere without installing a thing!",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrDano/Notserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrDano/Notserver/issues"
+  },
+  "homepage": "https://github.com/DrDano/Notserver#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
