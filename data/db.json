@@ -1,18 +1,16 @@
-{
-  "dataInstance": [
-    {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Note",
-      "text": "note",
-      "id": 1
-    },
-    {
-      "title": "Note Test",
-      "text": "Hi this is your favorite note.",
-      "id": 2
-    }
-  ]
-}
+[
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "Note",
+    "text": "note text",
+    "id": 1
+  },
+  {
+    "title": "Big note",
+    "text": "this is an example of a note that talks big, but obviously doesn't have the guts to back it up.",
+    "id": 2
+  }
+]
