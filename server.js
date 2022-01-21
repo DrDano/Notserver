@@ -6,7 +6,6 @@
 
 
 const express = require('express');
-const { notes } = require('./data/db.json');
 const PORT = process.env.PORT || 3003;
 
 const app = express();

@@ -1,23 +1,22 @@
 const path = require('path');
 const router = require('express').Router();
-const { notes } = require('../data/db.json')
-const PostHelper = require('../lib/postHelpers');
+const NoteHelper = require('../lib/NoteHelper');
 
-const notePostHandler = new PostHelper();
+const noteHelper = new NoteHelper();
 
 router.get('/notes', (req, res) => {
-    let results = notes;
+    let results = noteHelper.jsonData;
 
     res.json(results)
 });
 
 router.post('/notes', (req, res) => {
-    req.body.id = notes.length.toString();
+    req.body.id = noteHelper.jsonData.length;
 
-    if (!notePostHandler.validateJson(req.body)) {
+    if (!noteHelper.validateJson(req.body)) {
         res.status(400).send('Please include both a note title and body text and try again.');
     } else {
-        const note = notePostHandler.createNewData(req.body, notes);
+        const note = noteHelper.pushNewData(req.body);
         res.json(note)
     }
 })

@@ -1,6 +1,18 @@
-[
+{
+  "dataInstance": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Note",
+      "text": "note",
+      "id": 1
+    },
+    {
+      "title": "Note Test",
+      "text": "Hi this is your favorite note.",
+      "id": 2
     }
-]
+  ]
+}
