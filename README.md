@@ -2,8 +2,9 @@
 A note-taking app that you can take anywhere without installing a thing!
 
 
-  ![](https://img.shields.io/badge/javascript-97-blue?logo=javascript)
-  ![](https://img.shields.io/badge/html-3-blue?logo=html)
+  ![](https://img.shields.io/badge/javascript-67-blue?logo=javascript)
+  ![](https://img.shields.io/badge/html-22-blue?logo=html5)
+  ![](https://img.shields.io/badge/css-11-blue?logo=css3)
   ![](https://img.shields.io/badge/express.js-dep-blue?logo=express)
 
   ## Description
