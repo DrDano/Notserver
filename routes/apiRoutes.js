@@ -1,6 +1,3 @@
-const { json } = require('express');
-const { fsyncSync } = require('fs');
-const path = require('path');
 const router = require('express').Router();
 const NoteHelper = require('../lib/NoteHelper');
 

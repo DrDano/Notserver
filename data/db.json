@@ -1,12 +1,7 @@
 [
   {
-    "title": "big note",
-    "text": "got lots notes",
-    "id": 1
-  },
-  {
-    "title": "you dig?",
-    "text": "just noting to you dig",
-    "id": 3
+    "title": "Note Title",
+    "text": "Note body text",
+    "id": 0
   }
 ]
