@@ -1,3 +1,5 @@
+const { json } = require('express');
+const { fsyncSync } = require('fs');
 const path = require('path');
 const router = require('express').Router();
 const NoteHelper = require('../lib/NoteHelper');
@@ -19,6 +21,10 @@ router.post('/notes', (req, res) => {
         const note = noteHelper.pushNewData(req.body);
         res.json(note)
     }
+})
+
+router.delete('/notes/:id', (req, res) => {
+    noteHelper.deleteData(req.params.id);
 })
 
 module.exports = router;
