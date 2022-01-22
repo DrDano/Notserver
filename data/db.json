@@ -3,5 +3,10 @@
     "title": "Note Title",
     "text": "Note body text",
     "id": 0
+  },
+  {
+    "title": "Derp",
+    "text": "derpy doo",
+    "id": 1
   }
 ]

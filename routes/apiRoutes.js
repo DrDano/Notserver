@@ -24,4 +24,10 @@ router.delete('/notes/:id', (req, res) => {
     noteHelper.deleteData(req.params.id);
 })
 
+router.get('*', (req, res) => {
+    let results = noteHelper.jsonData;
+
+    res.json(results)
+});
+
 module.exports = router;
