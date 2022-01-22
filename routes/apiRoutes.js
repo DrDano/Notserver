@@ -10,7 +10,7 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    req.body.id = noteHelper.jsonData.length;
+    noteHelper.jsonData[0] ? req.body.id = noteHelper.jsonData[noteHelper.jsonData.length - 1].id + 1 : req.body.id = 0;
 
     if (!noteHelper.validateJson(req.body)) {
         res.status(400).send('Please include both a note title and body text and try again.');
