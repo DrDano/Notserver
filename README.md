@@ -19,6 +19,9 @@ A note-taking app that you can take anywhere without installing a thing!
 
   ![](./public/assets/notserver.jpg)
 
+  ## Deployment Link
+  [Link to deployed app](https://notserverdh.herokuapp.com/)
+
   ## Table of contents
 
   * [Installation](#installation)
